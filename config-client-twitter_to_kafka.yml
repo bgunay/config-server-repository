@@ -16,8 +16,8 @@ twitter-to-kafka-service:
 retry-config:
   initial-interval-ms: 1000
   max-interval-ms: 10000
-  multiplier: 1.3
-  maxAttempts: 2
+  multiplier: 2
+  maxAttempts: 4
   sleep-time-ms: 2000
 
 kafka-config:
